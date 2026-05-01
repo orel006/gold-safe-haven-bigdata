@@ -1,0 +1,12 @@
+﻿variable,status,rows,path
+SP500,SUCCESS,2609,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\SP500.csv
+VIXCLS,SUCCESS,7827,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\VIXCLS.csv
+USREC,SUCCESS,359,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\USREC.csv
+FEDFUNDS,SUCCESS,359,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\FEDFUNDS.csv
+EFFR,SUCCESS,6739,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\EFFR.csv
+CPIAUCSL,SUCCESS,359,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\CPIAUCSL.csv
+DGS10,SUCCESS,7826,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\DGS10.csv
+DFII10,SUCCESS,6085,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\DFII10.csv
+T10YIE,SUCCESS,6086,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\T10YIE.csv
+T10Y3M,SUCCESS,7827,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\T10Y3M.csv
+DTWEXBGS,SUCCESS,5300,C:\Users\Moji\Desktop\Finalbigdata\gold-safe-haven-bigdata\data\raw\fred\DTWEXBGS.csv

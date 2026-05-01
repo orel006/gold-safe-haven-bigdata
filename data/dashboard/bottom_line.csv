@@ -1,0 +1,10 @@
+﻿category,icon,title,body,status
+gold_overall,🥇,ทองคำในช่วงวิกฤตโดยรวม,Mean daily return = 0.0529% (SPY = -0.0409%) — สถานะ: ดี,ดี
+crisis_event,📅,Dotcom Bubble Burst,ทองให้ผลบวก +0.0333% ขณะ SPY ขาดทุน -0.0746% → Safe Haven ชัดเจน,safe_haven
+crisis_event,📅,Global Financial Crisis (GFC),ทองให้ผลบวก +0.0800% ขณะ SPY ขาดทุน -0.1940% → Safe Haven ชัดเจน,safe_haven
+crisis_event,📅,European Debt Crisis,ทอง (0.0636%) เสียหายน้อยกว่า SPY (0.0337%) → มีคุณสมบัติ partial safe haven,partial
+crisis_event,📅,China Crash / Oil Crash,ทองให้ผลบวก +0.0381% ขณะ SPY ขาดทุน -0.0703% → Safe Haven ชัดเจน,safe_haven
+crisis_event,📅,COVID-19 Pandemic Crash,ทอง (-0.0594%) เสียหายน้อยกว่า SPY (-1.5702%) → มีคุณสมบัติ partial safe haven,partial
+crisis_event,📅,2022 Rate Hike / Inflation Shock,ทอง (-0.0414%) เสียหายน้อยกว่า SPY (-0.1288%) → มีคุณสมบัติ partial safe haven,partial
+safe_haven_rank,🛡️,Safe Haven Score (Composite 6 มิติ),ทองอยู่อันดับ #3 จาก 34 สินทรัพย์ (score = 1.012),ดี
+conclusion,💎,สรุป: ทองคำเป็น Conditional Safe Haven,"ทองคำเป็น safe haven ในบางช่วงวิกฤต (เช่น GFC, COVID) แต่ล้มเหลวในบางช่วง (เช่น 2022 rate hike) — ประสิทธิภาพขึ้นกับ VIX, USD, real yield",conditional

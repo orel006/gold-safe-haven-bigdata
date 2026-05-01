@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.idea/
+.vscode/
+*.log
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Airflow / local runtime
+airflow.cfg
+airflow.db
+logs/
+standalone_admin_password.txt
+
+# Large or reproducible pipeline outputs
+# Keep data/dashboard/ and reports/ if you want the public repo to open the dashboard demo immediately.
+data/raw/
+data/cache/
+data/cleaned/
+data/integrated/
+data/parquet/
+data/spark_output/
+safe_haven_bigdata_output/
+
+# Notebook/runtime noise
+notebooks/.ipynb_checkpoints/
+*.tmp
+patch_*.py

@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  airflow:
+    # เลือกใช้ Airflow พร้อม Python 3.10
+    image: apache/airflow:2.9.1-python3.10
+    container_name: airflow-gold-safe-haven
+    ports:
+      - "8080:8080"
+    volumes:
+      # ผูกโฟลเดอร์ในเครื่องกับใน Docker Container
+      - ./dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./reports:/opt/airflow/reports
+      - ./notebooks:/opt/airflow/notebooks
+      - ./requirements.txt:/opt/airflow/requirements.txt
+      - ./safe_haven_bigdata_output:/opt/airflow/safe_haven_bigdata_output
+    environment:
+      # ปิดตัวอย่าง DAG เกะกะของระบบ
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION=True
+      # สร้าง User อัตโนมัติ (username: admin, password: admin)
+      - _AIRFLOW_WWW_USER_CREATE=true
+      - _AIRFLOW_WWW_USER_USERNAME=admin
+      - _AIRFLOW_WWW_USER_PASSWORD=admin
+    # ติดตั้ง Lib ของโปรเจกต์เราก่อน แล้วรันเซิร์ฟเวอร์ Airflow (แบบ Standalone ครบจบในตัวเดียว)
+    command: bash -c "pip install -r /opt/airflow/requirements.txt && airflow standalone"

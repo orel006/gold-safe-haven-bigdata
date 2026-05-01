@@ -1,0 +1,9 @@
+﻿group,total,advance,decline,pct_positive
+bonds,3,3,0,100.0
+commodities,4,2,2,50.0
+crypto,2,0,2,0.0
+gold,3,3,0,100.0
+magnificent_7,7,4,3,57.1
+sector_etf,10,0,10,0.0
+stock_etf,4,0,4,0.0
+usd,1,1,0,100.0

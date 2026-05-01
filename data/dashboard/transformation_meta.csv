@@ -1,0 +1,17 @@
+﻿metric,value
+yahoo_raw_files,34
+fred_raw_files,11
+total_raw_files,45
+total_assets_tracked,34
+labeled_dataset_rows,203662
+crisis_days,2842
+normal_days,6032
+master_csv_size_mb,37.59
+master_parquet_size_mb,6.32
+compression_ratio,5.95
+csv_read_seconds,0.4797
+parquet_read_seconds,0.1527
+missing_cells_in_labeled,1201833
+spark_output_files,13
+spark_process_status,FAILED: getSubject is supported only if a security manager is allowed
+spark_transform_runtime_status,runtime_ok

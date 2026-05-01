@@ -1,0 +1,7 @@
+﻿metric,value
+pandas_read_csv_sec,0.4797
+pandas_read_parquet_sec,0.1527
+master_csv_size_mb,37.5863
+master_parquet_size_mb,6.3242
+spark_status,FAILED: getSubject is supported only if a security manager is allowed
+spark_partition_write_sec,0

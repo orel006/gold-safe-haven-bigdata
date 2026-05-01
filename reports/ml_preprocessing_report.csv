@@ -1,0 +1,15 @@
+﻿feature,missing_count_before_imputer,missing_rate_before_imputer,preprocessing,leakage_control
+daily_return_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+spy_daily_return_lag1,1,0.0003746721618583739,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+rolling_volatility_21d_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+rolling_volatility_63d_lag1,17,0.006369426751592357,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+drawdown_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+rolling_corr_gold_spy_90d_lag1,1259,0.4717122517796928,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+vix_level_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+recession_flag_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+inflation_yoy_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+fed_rate_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+treasury_10y_lag1,0,0.0,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+real_yield_lag1,529,0.1982015736230798,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+breakeven_inflation_lag1,529,0.1982015736230798,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit
+dollar_index_lag1,1270,0.47583364556013485,SimpleImputer(strategy='median') -> StandardScaler,lag_1_day_features + TimeSeriesSplit

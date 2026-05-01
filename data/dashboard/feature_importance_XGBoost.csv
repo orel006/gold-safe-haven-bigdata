@@ -1,0 +1,15 @@
+﻿feature,importance
+recession_flag_lag1,0.086772144
+real_yield_lag1,0.075702436
+vix_level_lag1,0.0743071
+rolling_corr_gold_spy_90d_lag1,0.071759254
+rolling_volatility_63d_lag1,0.0713726
+spy_daily_return_lag1,0.070928134
+inflation_yoy_lag1,0.07083127
+daily_return_lag1,0.07027901
+fed_rate_lag1,0.070212975
+dollar_index_lag1,0.06999059
+rolling_volatility_21d_lag1,0.0691952
+breakeven_inflation_lag1,0.067813694
+drawdown_lag1,0.06687749
+treasury_10y_lag1,0.06395805
