@@ -1,3 +1,5 @@
+จัดทำโดย นาย พิสิษฐ์ แซ่เตีย รหัสนักศึกษา 6704800038
+
 # 🥇 Gold Safe Haven Analytics — Big Data Platform
 
 <p align="center">
